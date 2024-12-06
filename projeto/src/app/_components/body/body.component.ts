@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { CardsComponent } from "../cards/cards.component";
 
 @Component({
   selector: 'app-body',
-  imports: [],
   templateUrl: './body.component.html',
-  styleUrl: './body.component.css'
+  styleUrl: './body.component.css',
+  imports: [CardsComponent]
 })
 export class BodyComponent {
 
