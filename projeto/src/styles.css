@@ -5,3 +5,7 @@
   --tertiary-color: #81c784;
   --text-color: white;
 }
+
+html {
+  scroll-behavior: smooth;
+}
