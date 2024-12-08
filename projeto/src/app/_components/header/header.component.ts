@@ -8,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+
+  //variáveis
+  amazonia:string = 'amazônia'
+  pantanal:string = 'pantanal'
+  mata_atlantica:string = 'mata atlântica'
+  pampa:string = 'pampa'
+  caatinga:string = 'caatinga'
+  cerrado:string = 'cerrado'
+
+
 }
