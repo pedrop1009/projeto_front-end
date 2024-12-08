@@ -7,7 +7,7 @@ import { CardsComponent } from "./_components/cards/cards.component";
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, FooterComponent, BodyComponent],
+  imports: [HeaderComponent, BodyComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
