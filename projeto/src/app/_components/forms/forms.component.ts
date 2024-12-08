@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './forms.component.css'
 })
 export class FormsComponent {
+   //Função paraexibir alerta
+ alerta(){
+  alert('login efetuado com sucesso!')
+}
+
 
 }
