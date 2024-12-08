@@ -1,9 +1,12 @@
 body {
   color: var(--text-color);
   background-image: url('https://e0.pxfuel.com/wallpapers/469/955/desktop-wallpaper-sdv-themed-stardew-valley-forums-cool-stardew-valley.jpg');
+  background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat;
 }
+
+
+
 
 
 
