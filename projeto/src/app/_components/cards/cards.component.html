@@ -2,31 +2,31 @@
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card h-100">
-        <img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/mata-atlantica-2.jpg?w=1900&h=1425" class="card-img-top" alt="mata">
+        <img [src]="imagem_amazonica" class="card-img-top" alt="mata">
         <div class="card-body">
           <h5 class="card-title">Amazônia</h5>
           <p class="card-text">resumo.</p>
-          <button type="button" class="btn btn-primary">teste</button>
+          <button (click)="alterar_amazonica()" type="button" class="btn btn-primary">teste</button>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card h-100">
-        <img src="https://apremavi.org.br/wp-content/uploads/2017/01/capivara.jpg" class="card-img-top" alt="capivara">
+        <img [src]="imagem_cerrado" class="card-img-top" alt="capivara">
         <div class="card-body">
           <h5 class="card-title">Cerrado</h5>
           <p class="card-text">resumo.</p>
-          <button type="button" class="btn btn-primary">teste</button>
+          <button (click)="alterar_cerrado()" type="button" class="btn btn-primary">teste</button>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card h-100">
-        <img src="https://123ecos.com.br/wp-content/uploads/2024/02/Bioma-Mata-Atlantica-e-seus-ecossistemas-1024x576.jpg" class="card-img-top" alt="características">
+        <img [src]="imagem_atlantica" class="card-img-top" alt="características">
         <div class="card-body">
           <h5 class="card-title">Mata Atlântica</h5>
           <p class="card-text">resumo.</p>
-          <button type="button" class="btn btn-primary">teste</button>
+          <button (click)="alterar_atlantica()" type="button" class="btn btn-primary">teste</button>
         </div>
       </div>
     </div>
@@ -37,31 +37,31 @@
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card h-100">
-        <img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/mata-atlantica-2.jpg?w=1900&h=1425" class="card-img-top" alt="mata">
+        <img [src]="imagem_caatinga" class="card-img-top" alt="mata">
         <div class="card-body">
           <h5 class="card-title">Caatinga</h5>
           <p class="card-text">resumo.</p>
-          <button type="button" class="btn btn-primary">teste</button>
+          <button (click)="alterar_caatinga()" type="button" class="btn btn-primary">teste</button>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card h-100">
-        <img src="https://apremavi.org.br/wp-content/uploads/2017/01/capivara.jpg" class="card-img-top" alt="capivara">
+        <img [src]="imagem_pantanal" class="card-img-top" alt="capivara">
         <div class="card-body">
           <h5 class="card-title">Pantanal</h5>
           <p class="card-text">resumo.</p>
-          <button type="button" class="btn btn-primary">teste</button>
+          <button (click)="alterar_pantanal()" type="button" class="btn btn-primary">teste</button>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card h-100">
-        <img src="https://123ecos.com.br/wp-content/uploads/2024/02/Bioma-Mata-Atlantica-e-seus-ecossistemas-1024x576.jpg" class="card-img-top" alt="características">
+        <img [src]="imagem_pampa" class="card-img-top" alt="características">
         <div class="card-body">
           <h5 class="card-title">Pampa</h5>
           <p class="card-text">resumo.</p>
-          <button type="button" class="btn btn-primary">teste</button>
+          <button (click)="alterar_pampa()" type="button" class="btn btn-primary">teste</button>
         </div>
       </div>
     </div>
