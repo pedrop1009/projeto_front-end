@@ -16,4 +16,12 @@ export class FormsComponent {
 // Variável para exibir ou ocultar formulário
 exibir:boolean = true;
 
+//função para exibir ou ocultar
+ocultar(){
+  if(this.exibir === true){
+    this.exibir = false;
+  }else{
+    this.exibir = true;
+  }
+}
 }

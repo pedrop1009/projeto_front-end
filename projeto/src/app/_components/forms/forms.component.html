@@ -1,11 +1,11 @@
-
-  <form id="formulario" class="container">
+<form id="formulario" class="container"  >
+  <div class = 'form' *ngIf="exibir">
     <h3 class="text-center">Se Inscreva!</h3>
-    <div class="mb-3">
+    <div class="mb-3" >
       <label for="exampleInputEmail1" class="form-label">Insira o seu E-mail</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     </div>
-    <div class="mb-3">
+    <div  class="mb-3">
       <label for="exampleInputPassword1" class="form-label">Senha</label>
       <input type="password" class="form-control" id="exampleInputPassword1">
     </div>
@@ -15,6 +15,6 @@
     </div>
     <a href="" (click)="alerta()"  class="btn btn-primary">Embarque nesta aventura!</a>
     <hr>
-    <a class="btn btn-primary">Ocultar formulário</a>
-  </form>
-
+  </div>
+  <a  (click)= "ocultar()" class="btn btn-primary">Ocultar/exibir formulário</a>
+</form>
