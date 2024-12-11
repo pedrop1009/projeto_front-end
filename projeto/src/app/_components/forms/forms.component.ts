@@ -1,27 +1,28 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-forms',
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
   templateUrl: './forms.component.html',
   styleUrl: './forms.component.css'
 })
 export class FormsComponent {
-   //Função paraexibir alerta
- alerta(){
-  alert('login efetuado com sucesso!')
-}
+  email: string = '';
+  senha: string = '';
 
-// Variável para exibir ou ocultar formulário
-exibir:boolean = true;
+  exibir: boolean = true;
 
-//função para exibir ou ocultar
-ocultar(){
-  if(this.exibir === true){
-    this.exibir = false;
-  }else{
-    this.exibir = true;
+  alerta() {
+    if (!this.email || !this.senha) {
+      alert('Erro: Usuário ou senha inexistentes. Por favor, preencha os campos corretamente.');
+    } else {
+      alert('Login efetuado com sucesso!');
+    }
   }
-}
+
+  ocultar() {
+    this.exibir = !this.exibir;
+  }
 }

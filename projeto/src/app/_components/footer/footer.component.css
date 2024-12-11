@@ -7,6 +7,10 @@
   color: var(--text-color) !important;
 }
 
+.text-body-secondary{
+  color: var(--text-color)
+}
+
 
 
 
