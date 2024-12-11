@@ -5,8 +5,8 @@
   text-align: center;
 }
 .button-link {
-  background-color: var(--tertiary-color);
-  color: var(--text-color);
+  background-color: var(--tertiary-color); /* cor do background */
+  color: var(--text-color); /* cor do texto */
   padding: 10px 20px; /* Espaçamento interno */
   text-align:justify; /* Alinhar texto */
   text-decoration: none; /* Remover sublinhado */
